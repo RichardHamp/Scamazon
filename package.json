@@ -1,0 +1,23 @@
+{
+  "name": "scamazon",
+  "version": "1.0.0",
+  "description": "Node and MySql Javascript assignment",
+  "main": "scamazon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardHamp/Scamazon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RichardHamp/Scamazon/issues"
+  },
+  "homepage": "https://github.com/RichardHamp/Scamazon#readme",
+  "dependencies": {
+    "inquirer": "^7.0.1",
+    "js": "^0.1.0"
+  }
+}
