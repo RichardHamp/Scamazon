@@ -3,7 +3,7 @@ Node and MySql Shopping App. Takes in user-inputed data in terminal, in the form
 
 github link: https://github.com/RichardHamp/Scamazon
 
-video of app use: 
+video of app use: https://www.youtube.com/watch?v=tJWTcdzznZU
 
 ## Using the App:
 You will need to clone this repo onto your local drive in order to utilize this app. From there you will need to install the required packages. After that, you may then run the app. Simply type in the following:

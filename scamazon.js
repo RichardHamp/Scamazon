@@ -14,9 +14,9 @@ connection.connect();
 var display = function (){
     connection.query("SELECT * FROM products", function (err, res){
         if (err) throw err;
-        console.log("-------------------------");
+        console.log("-------------------------------------------");
         console.log("   Quit Gawkin'! Buy something, will ya?   ");
-        console.log("-------------------------");
+        console.log("-------------------------------------------");
         console.log("");
         console.log("All products are 102% nearly quality sometimes");
         console.log("");
@@ -25,7 +25,7 @@ var display = function (){
         colWidths: [12, 50, 8],
         colAligns: ["center", "left", "right"],
         style: {
-            head: ["aqua"],
+            head: ["blue"],
             compact: true
         }
     });
@@ -50,7 +50,6 @@ var shopping = function (){
             if (err) throw err;
             if (res.length === 0) {
                 console.log("Is this some kinda joke? I ain't got nothin' like that.");
-
             shopping();
             } else {
                 inquirer.prompt({
@@ -67,7 +66,7 @@ var shopping = function (){
                     }else{
                         console.log("");
                         console.log(res[0].product + " purchased");
-                        console.log(left + " qty @ $" + res[0].price);
+                        console.log(left + " @ $" + res[0].price);
 
                         var newQuantity = res[0].quantity - left;
                         connection.query(
